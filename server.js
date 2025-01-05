@@ -10,7 +10,7 @@ let articles = [];
 
 async function fetchNews() {
     try {
-        const response = await axios.get('https://newsapi.org/v2/everything?q=roblox&apiKey=YOUR_API_KEY'); // Ganti dengan API key yang valid
+        const response = await axios.get('https://newsapi.org/v2/everything?q=roblox&apiKey=48a2c27be3794c4f852d6650917d721a');
         articles = response.data.articles;
         fs.writeFileSync('news.json', JSON.stringify(articles));
     } catch (error) {

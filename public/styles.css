@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-image: url('https://www.file-extensions.org/imgs/app-picture/10558/roblox.png'); /* URL gambar yang Anda sediakan */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px; /* Membuat teks lebih besar */
+  color: #000; /* Mengganti warna teks menjadi hitam */
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Menambahkan bayangan teks agar terlihat lebih jelas */
+}
+
+header input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 300px;
+}
+
+main {
+  padding: 20px;
+}
+
+#latest-news {
+  margin-top: 20px;
+}
+
+#news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.article h2 {
+  margin: 0;
+}
+
+.article p {
+  color: #666;
+}
