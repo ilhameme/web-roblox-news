@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function fetchNews() {
         const response = await fetch('/news'); // Mengambil data dari server
         const newsData = await response.json();
+        console.log('News data:', newsData); // Debugging log
 
         displayNews(newsData);
     }
