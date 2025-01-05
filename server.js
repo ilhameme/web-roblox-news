@@ -9,7 +9,7 @@ const app = express();
 let articles = [];
 
 async function fetchNews(game) {
-    const apiKey = '48a2c27be3794c4f852d6650917d721a'; // Ganti dengan API key Anda
+    const apiKey = 'YOUR_API_KEY'; // Ganti dengan API key Anda
     let url = `https://newsapi.org/v2/everything?q=roblox&apiKey=${apiKey}`;
 
     if (game) {
